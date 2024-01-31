@@ -4,20 +4,31 @@
   text-decoration: none;
 }
 .navbar {
-  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  //position: absolute;
   top: 0;
   width: 100%;
   background-color: black;
+  height: 12vh;
+  border-radius: 40px;
+  margin-left: 1vw;
+  margin-right: 6vw;
+ 
 }
 
 .navbar__ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style: none;
   align-items: center;
+  
 }
 
 .navbar__li {
   padding: 30px;
   font-size: 25px;
+}
+.navbar__a {
+  color: aliceblue;
 }
